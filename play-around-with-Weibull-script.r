@@ -32,7 +32,7 @@ scale       <-    1.0   # (= lambda; apparently just compressing or stretching t
 # Set a seed for reproducibility
 #set.seed(1)   # Comment out to watch different examples!
 
-# Generate a (pseudo-)random Gauss distribution
+# Generate a (pseudo-)random Weibull distribution
 varRndWeibull <- rweibull(nRndNumbers, shape = shape, scale = scale)
 
 # Create a histogram
